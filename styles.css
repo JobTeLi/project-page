@@ -1,12 +1,33 @@
 body {
     font-family: Robota, sans-serif;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    color: #E5E7EB;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Robota, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #E5E7EB;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
-
+    padding: 16px;
+    justify-content: space-around;
 }
 
 .logo {
@@ -14,7 +35,12 @@ body {
     color: #F9FAF8;
 }
 
-.link {
-    font-size: 18px;
-    color: #E5E7EB;
+.right-header {
+    gap: 8px;
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    align-items: center;
 }
