@@ -11,6 +11,13 @@ ul {
     color: #E5E7EB;
     display: flex;
     gap: 20px;
+    padding: 0;
+}
+
+img {
+    display: flex;
+    width: 600px;
+    height: 300px;
 }
 
 a {
@@ -32,28 +39,37 @@ button {
     display: flex;
     border: none;
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 900;
     padding: 4px;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
-    height: 480px;
     flex-direction: column;
     gap: 100px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .top-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;   
 }
 
 .bottom-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 24px;
 }
 
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+}
 
 .logo {
     font-size: 24px;
@@ -63,20 +79,12 @@ button {
 }
 
 
-.text-card {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 25%;
-}
-
-
 .head-text {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
     display: flex;
     padding-bottom: 4px;
-
 }
 
 
@@ -85,13 +93,4 @@ button {
     font-size: 18px; 
     display: flex;
     padding-bottom: 4px;
-}
-
-.empty {
-    background-color: #818b98;
-    color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 25%;
 }
