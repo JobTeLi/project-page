@@ -10,7 +10,7 @@ ul {
     list-style: none;
     color: #E5E7EB;
     display: flex;
-    gap: 16px;
+    gap: 20px;
 }
 
 a {
@@ -39,52 +39,59 @@ button {
 .header {
     display: flex;
     background-color: #1F2937;
-    padding: 8px;
+    height: 480px;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.top-header {
+    display: flex;
     justify-content: space-around;
 }
+
+.bottom-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    padding-top: 12px;
 }
 
-.left-header,
-.right-header {
+
+.text-card {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-basis: 25%;
 }
 
-.second-hero {
-    display: flex;
-    background-color: #1F2937;
-    justify-content: space-around;
-    padding: 100px;
-}
 
 .head-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
+    display: flex;
+    padding-bottom: 4px;
+
 }
 
-.left-hero {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;    
-}
+
 .sub-text {
     color: #E5E7EB;
     font-size: 18px; 
+    display: flex;
+    padding-bottom: 4px;
 }
 
 .empty {
     background-color: #818b98;
     color: #E5E7EB;
     display: flex;
-    font-size: 18px;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 400px;
-
+    flex-basis: 25%;
 }
