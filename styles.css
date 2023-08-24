@@ -1,96 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Robota, sans-serif;
     display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
+    flex-direction: column;
+}
+
+img {
+    width: 400px;
+    height: 200px;
 }
 
 ul {
     list-style: none;
-    color: #E5E7EB;
     display: flex;
-    gap: 20px;
-    padding: 0;
-}
-
-img {
-    display: flex;
-    width: 600px;
-    height: 300px;
+    gap: 24px;
 }
 
 a {
     text-decoration: none;
-    font-family: Robota, sans-serif;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    color: #E5E7EB;
+    color: beige;
 }
 
 button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-    justify-content: center;
-    width: 80px;
-    text-decoration: none;
     display: flex;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: beige;
     border: none;
-    border-radius: 4px;
-    font-weight: 900;
+    border-radius: 6px;
     padding: 4px;
+
 }
 
 .header {
+    background-color: #333300;
     display: flex;
-    background-color: #1F2937;
     flex-direction: column;
-    gap: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 400px;
+}
+
+.top-head,
+.bottom-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-head {
     padding-bottom: 100px;
-    flex-wrap: wrap;
 }
-
-.top-header {
-    display: flex;
-    justify-content: space-around;   
-}
-
-.bottom-header {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
 
 .text-card {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 300px;
+    width: 400px;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
-    display: flex;
+    font-weight: 500px;
+    color: beige;
     padding-top: 12px;
 }
 
-
-.head-text {
-    color: #F9FAF8;
+.hero-text {
     font-size: 48px;
-    font-weight: 900;
-    display: flex;
-    padding-bottom: 4px;
+    font-weight: 800px;
+    color: beige;
 }
 
-
 .sub-text {
-    color: #E5E7EB;
-    font-size: 18px; 
-    display: flex;
+    font-size: 18px;
+    font-weight: 200px;
+    color: whitesmoke;
     padding-bottom: 4px;
 }
