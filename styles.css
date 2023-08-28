@@ -151,7 +151,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7em 13em;
+    padding: 7em 25em;
 }
 
 .main-text {
