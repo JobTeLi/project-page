@@ -26,7 +26,6 @@ button {
     border: none;
     width: 80px;
     padding: 4px;
-    background-color: ;
     border-radius: 6px;
 }
 
@@ -42,13 +41,13 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .menu-links {
@@ -106,6 +105,7 @@ button {
     justify-content: center;
     align-items: center;
     padding-block-end: 80px;
+
 }
 
 .main-header {
@@ -119,6 +119,7 @@ button {
 .container-pictures {
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .picture-parent {
