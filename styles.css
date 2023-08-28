@@ -157,10 +157,13 @@ button {
 .main-text {
     display: flex;
     font-size: 36px;
-
+    color: #607C5C;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .under-text {
     display: flex;
     justify-content: flex-end;
+    font-weight: bold;
 }
