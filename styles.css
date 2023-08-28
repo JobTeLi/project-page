@@ -168,6 +168,34 @@ button {
     font-weight: bold;
 }
 
+.action-part {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 5em 20em;
+}
+
+.action-container {
+    display: flex;
+    background-color: #35241B;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.botbutt {
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #35241B;
+    color: white;
+    border-color: white;
+}
+
 .footer {
     background-color: #1A332B;
     display: flex;
