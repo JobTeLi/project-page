@@ -145,3 +145,22 @@ button {
     justify-content: space-around;
     max-width: 200px;
 }
+
+.main-bottom {
+    background-color: #ECE6DD;
+    display: flex;
+    flex-direction: column;
+    padding-block: 100px;
+    padding-inline: 480px;
+}
+
+.main-text {
+    display: flex;
+    font-size: 36px;
+
+}
+
+.under-text {
+    display: flex;
+    justify-content: flex-end;
+}
